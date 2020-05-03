@@ -25,8 +25,8 @@ import {
 // import YkFlatList from './components/YkFlatList'
 // import YkSwiper from './components/YkSwiper'
 // import YkBooksFlatList from './components/YkBooksFlatList'
-// import YkNet from './components/YkNet'
-import YkSectionList from './components/YkSectionList'
+// import YkSectionList from './components/YkSectionList'
+import YkNet from './components/YkNet'
 
 const App: () => React$Node = () => {
   return (
@@ -46,9 +46,9 @@ const App: () => React$Node = () => {
         {/* <YkRefresh/> */}
         {/* <YkFlatList/> */}
         {/* <YkSwiper/> */}
-        {/* <YkBooksFlatList/>     */}
-        {/* <YkNet/>     */}
-        <YkSectionList/>    
+        {/* <YkBooksFlatList/>     */}  
+        {/* <YkSectionList/>     */}
+        <YkNet/>  
       </SafeAreaView>
     </>
   );
