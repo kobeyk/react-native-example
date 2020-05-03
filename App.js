@@ -16,7 +16,7 @@ import {
 } from 'react-native';
 
 // import YkImage from './components/YkImage'
-import YkImageNike from './components/YkImageNike'
+// import YkImageNike from './components/YkImageNike'
 // import YkText from './components/YkText'
 // import YkTouchable from './components/YkTouchable'
 // import YkFlexDemo from './components/YkFlexDemo'
