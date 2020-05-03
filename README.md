@@ -62,4 +62,4 @@ react-native run-android or yarn andro
 
 *** 
 
-### &bull; 其他典型组件等使用后续会不定时更新上，欢迎大家star!
+### &bull; 其他典型组件的使用后续会不定时更新上，欢迎大家star!
