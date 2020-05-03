@@ -12,7 +12,7 @@ import {
 import YkSwiper from './YkSwiper'
 import YkFooter from './YkFooter'
 
-const ds = require('../assets/datas/neiyi.json')
+const ds = require('../assets/datas/books.json')
 
 export default class YkNeiYiFlatList extends Component {
 

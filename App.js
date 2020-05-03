@@ -24,9 +24,9 @@ import YkImageNike from './components/YkImageNike'
 // import YkRefresh from './components/YkRefresh'
 // import YkFlatList from './components/YkFlatList'
 // import YkSwiper from './components/YkSwiper'
-import YkNeiYiFlatList from './components/YkNeiYiFlatList'
+// import YkBooksFlatList from './components/YkBooksFlatList'
 // import YkNet from './components/YkNet'
-// import YkSectionList from './components/YkSectionList'
+import YkSectionList from './components/YkSectionList'
 
 const App: () => React$Node = () => {
   return (
@@ -46,9 +46,9 @@ const App: () => React$Node = () => {
         {/* <YkRefresh/> */}
         {/* <YkFlatList/> */}
         {/* <YkSwiper/> */}
-        <YkNeiYiFlatList/>    
+        {/* <YkBooksFlatList/>     */}
         {/* <YkNet/>     */}
-        {/* <YkSectionList/>     */}
+        <YkSectionList/>    
       </SafeAreaView>
     </>
   );

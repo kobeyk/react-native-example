@@ -46,13 +46,13 @@ export default class YkSwiper extends Component {
             }}/>}
             >
                 <View style={styles.slide1}>
-                    <Image source={{ uri: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1588265594516&di=9817aacc8569b27d8d52964b72877f16&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201812%2F18%2F20181218230937_xkuhb.jpeg' }}
-                        style={{ width: screenW, height: 230 }}
+                    <Image source={{ uri: 'http://img58.ddimg.cn/9001580095667408.jpg' }}
+                        style={{ width: screenW, height: 230 ,resizeMode:'stretch'}}
                     />
                     {/* <Text style={styles.text}>Hello Swiper</Text> */}
                 </View>
                 <View style={styles.slide2}>
-                    <Image source={{ uri: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1588265590508&di=1715c27f520fd341c02091dac7a6a189&imgtype=0&src=http%3A%2F%2Fi2.download.fd.pchome.net%2Ft_960x600%2Fg1%2FM00%2F07%2F1F%2FooYBAFNolyWIeldfAAHVFX_trpMAABgqAD21RQAAdUt271.jpg' }}
+                    <Image source={{ uri: 'http://img1.gtimg.com/chinanba/pics/hv1/54/109/2323/151080924.jpg' }}
                         style={{ width: screenW, height: 230 }}
                     />
 
