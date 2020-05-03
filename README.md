@@ -57,8 +57,8 @@ react-native run-android or yarn andro
 *** 
 
 ### &bull; ios|android模拟器运行效果图（以fetch组件的get请求为例）：
-  
-![获取xxx网站的轮播图](https://img-blog.csdnimg.cn/20200503212609336.png)
+
+<img src='https://img-blog.csdnimg.cn/20200503212609336.png' alt='获取xxx网站的轮播图' width=500 height=600/>
 
 *** 
 
