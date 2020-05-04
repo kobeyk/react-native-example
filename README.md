@@ -64,7 +64,7 @@ react-native run-android or yarn andro
 
 ### &bull; ios|android模拟器运行效果图（以axios组件的get请求为例）：
 
-<img src='https://img-blog.csdnimg.cn/20200505001625370.png' alt='获取xxx网站的商品信息' width=500 height=600/>
+<img src='https://img-blog.csdnimg.cn/20200505001625370.png' alt='获取xxx网站的商品信息' width=750 height=600/>
 
 
 ### &bull; 其他常用组件的使用后续会不定时更新，后续也会增加项目实战，欢迎大家star!
