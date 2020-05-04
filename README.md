@@ -11,7 +11,7 @@
 git clone https://github.com/kobeyk/react-native-example.git
 ```
 
-### 二、注意，在ios目录下，编辑Podfile文件，首行添加CocoaPods源：
+### 二、注意，在ios目录下，编辑Podfile文件，首行添加CocoaPods源(本项目中已添加)：
 ```
 source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 ```
@@ -57,10 +57,9 @@ react-native run-android or yarn andro
 *** 
 
 ### &bull; ios|android模拟器运行效果图（以fetch组件的get请求为例）：
-  
 
-![获取xxx网站的轮播图](https://img-blog.csdnimg.cn/2020050321295097.png)
+<img src='https://img-blog.csdnimg.cn/20200503212609336.png' alt='获取xxx网站的轮播图' width=500 height=600/>
 
 *** 
 
-### &bull; 其他典型组件等使用后续会不定时更新上，欢迎大家star!
+### &bull; 其他典型组件的使用后续会不定时更新上，欢迎大家star!
