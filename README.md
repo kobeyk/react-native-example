@@ -11,7 +11,7 @@
 git clone https://github.com/kobeyk/react-native-example.git
 ```
 
-### 二、注意，在ios目录下，编辑Podfile文件，首行添加CocoaPods源：
+### 二、注意，在ios目录下，编辑Podfile文件，首行添加CocoaPods源(本项目中已添加)：
 ```
 source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 ```
