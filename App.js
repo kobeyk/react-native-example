@@ -27,7 +27,8 @@ import {
 // import YkBooksFlatList from './components/YkBooksFlatList'
 // import YkSectionList from './components/YkSectionList'
 // import YkNet from './components/YkNet'
-import YkHome from './components/app/goods/YkHome'
+// import YkHome from './components/app/goods/YkHome'
+import YkHomeNav from './components/app/navigation/YkHomeNav'
 
 const App: () => React$Node = () => {
   return (
@@ -63,7 +64,9 @@ const App: () => React$Node = () => {
         {/* 12、利用自身的fetch组件，实现网络数据的get请求 */}
         {/* <YkNet/>   */}
         {/* 13、利用axios，获取网络数据，并构建简单的商品信息展示应用 */}
-        <YkHome/>
+        {/* <YkHome/> */}
+        {/* 14、第三方路由和导航的运用 */}
+        <YkHomeNav/>
       </SafeAreaView>
     </>
   );
