@@ -9,6 +9,9 @@ import {
 
 // 订单路由页
 export default class YkOrderNav extends Component {
+    static navigationOptions={
+        title:'订单',
+    }
     render() {
         const {navigation} = this.props
         return (

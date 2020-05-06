@@ -28,7 +28,8 @@ import {
 // import YkSectionList from './components/YkSectionList'
 // import YkNet from './components/YkNet'
 // import YkHome from './components/app/goods/YkHome'
-import YkHomeNav from './components/app/navigation/YkHomeNav'
+// import YkHomeNav from './components/app/navigation/YkHomeNav'
+import YkTabNav from './components/app/navigation/navTab/YkTabNav'
 
 const App: () => React$Node = () => {
   return (
@@ -66,7 +67,9 @@ const App: () => React$Node = () => {
         {/* 13、利用axios，获取网络数据，并构建简单的商品信息展示应用 */}
         {/* <YkHome/> */}
         {/* 14、第三方路由和导航的运用 */}
-        <YkHomeNav/>
+        {/* <YkHomeNav/> */}
+        {/* 15、底部导航栏 */}
+        <YkTabNav/>
       </SafeAreaView>
     </>
   );

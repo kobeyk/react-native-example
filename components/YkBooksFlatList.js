@@ -27,7 +27,7 @@ export default class YkNeiYiFlatList extends Component {
         return (
             <TouchableOpacity
              style = {styles.cellRow}
-             onPress={()=>alert('您确定要购买这件吗,'+item.name+',价格：¥'+item.price)}
+             onPress={()=>alert('您确定要购买这本吗,'+item.name+',价格：¥'+item.price)}
             >
                 {/* 左部分 */}
                 <Image source={{ uri: item.image }}

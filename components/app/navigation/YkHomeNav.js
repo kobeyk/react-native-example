@@ -21,26 +21,55 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center'
     },
-    navText:{
-        fontSize:26
+    navText: {
+        fontSize: 26
     }
 })
 
 // 首页路由页
 class YkHomeNav extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {};
+    }
+     
+
+    // 设置头部导航相关信息
+    static navigationOptions = {
+        title: '首页',
+        headerStyle: {
+            backgroundColor: '#BFEFFF',
+        },
+        headerTintColor: 'black',
+        headerTitleStyle: {
+            fontWeight: 'bold',
+            fontSize: 20
+        },
+        headerLeft: () => (
+            <Button title="设置" onPress={() => alert("设置")} />
+        ),
+        headerRight: () => (
+            <Button
+                onPress={() => alert("下一步")}
+                title="下一步"
+            />)
+    }
+
+
     render() {
         return (
             <View style={styles.homeNav}>
                 <Text style={{ fontSize: 26 }}>我是【首页】页面</Text>
                 <Button title="发现"
                     onPress={() => this.props.navigation.navigate('Find')} />
-                
-                  {/* 路由过去，传对象 */}
-                  <Button title="订单"
-                    onPress={() => this.props.navigation.navigate('Order',{
-                        goodsName:'Iphone 11 128G',
-                        goodsPrice:'价格：¥4500.00'
-                    })} />    
+
+                {/* 路由过去，传对象 */}
+                <Button title="订单"
+                    onPress={() => this.props.navigation.navigate('Order', {
+                        goodsName: 'Iphone 11 128G',
+                        goodsPrice: '价格：¥4500.00'
+                    })} />
                 <TouchableOpacity
                     // 压栈操作，自身跳到自身会不断往栈里面添加，back的时候亚几次就要点几次
                     onPress={() => this.props.navigation.push('Mine')}

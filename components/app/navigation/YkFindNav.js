@@ -10,6 +10,10 @@ import {
 
 // 发现路由页面
 export default class YkFindNav extends Component {
+    // 设置头部导航相关信息
+    static navigationOptions={
+        title:'发现',
+    }
     render() {
         return (
             <View style={styles.containerView}>

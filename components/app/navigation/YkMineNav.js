@@ -7,6 +7,9 @@ import {
 
 // 我的路由页面
 export default class YkMineNav extends Component {
+    static navigationOptions={
+        title:'我的',
+    }
     render() {
         return (
             <View style={styles.containerView}>
