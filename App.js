@@ -29,7 +29,8 @@ import {
 // import YkNet from './components/YkNet'
 // import YkHome from './components/app/goods/YkHome'
 // import YkHomeNav from './components/app/navigation/YkHomeNav'
-import YkTabNav from './components/app/navigation/navTab/YkTabNav'
+// import YkTabNav from './components/app/navigation/navTab/YkTabNav'
+import MainNav from './components/app/navigation/navApp/MainNav'
 
 const App: () => React$Node = () => {
   return (
@@ -69,9 +70,11 @@ const App: () => React$Node = () => {
         {/* 14、第三方路由和导航的运用 */}
         {/* <YkHomeNav/> */}
         {/* 15、底部导航栏 */}
-        <YkTabNav/>
+        {/* <YkTabNav/> */}
+        {/* 16、定制底部导航栏 */}
+        <MainNav/>
       </SafeAreaView>
-    </>
+      </>
   );
 };
 
